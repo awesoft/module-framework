@@ -1,0 +1,19 @@
+{
+  "name": "awesoft/module-framework",
+  "description": "Awesoft library framework for Magento2",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Awesoft\\Framework\\": ""
+    }
+  }
+}
